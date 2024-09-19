@@ -83,7 +83,7 @@ h1 {
     border-bottom: 1px solid #3a3a3a;
 }
 
-/* Navigation style with dropdow toggle */
+/* Navigation style with dropdown toggle */
 nav {
     position: absolute;
     background-color: #ffffff;
@@ -121,7 +121,7 @@ footer {
     background-color: lightgoldenrodyellow;
 }
 
-/* Media query: table and larger (768px and up) */
+/* Media query: tablet and larger (768px and up) */
 @media screen and (min-width: 768px) {
 
     /* Header */
@@ -153,7 +153,7 @@ footer {
 
     /* Main content */
     main {
-        /* Push main content down to accomodate larger header */
+        /* Push main content down to accommodate larger header */
         margin-top: 79px;
     }
 }
@@ -161,7 +161,6 @@ footer {
 /* Media query: larger devices (992px and up) */
 @media screen and (min-width: 992px) {
     #menu a:hover {
-        color: red;
         border-bottom: 1px solid #3a3a3a;
     }
 
