@@ -125,6 +125,22 @@ main {
     position: relative;
 }
 
+/* Reasons Section */
+#reasons {
+    margin: auto;
+    width: 90%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#reasons h2 {
+    margin-bottom: 20px;
+    width: 280%;
+}
+
+#benefits-physical,
+#benefits-mental {}
+
 /* Final rbga value sets the opacity so it is semi-transparent */
 #cover-text {
     background-color: rgba(241, 109, 107, 0.7);
