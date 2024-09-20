@@ -274,7 +274,7 @@ main {
 /* Media query: Large devices (1200px and up) */
 @media screen and (min-width: 1200px) {
 
-    #benefits>section {
+    #benefits {
         display: flex;
         flex-direction: row;
     }
