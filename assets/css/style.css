@@ -280,7 +280,7 @@ main {
     }
 
     #benefits>div {
-        order: 1;
+        flex: 1;
     }
 
     #benefits-image {
