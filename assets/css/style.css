@@ -127,14 +127,11 @@ main {
 
 /* Reasons Section */
 #reasons {
-    margin-right: auto;
-    margin-left: auto;
-    margin-bottom: 20px;
-    margin-top: 20px;
+    margin: 20px auto;
     width: 90%;
 }
 
-#reasons>h2 {
+#reasons h2 {
     margin-bottom: 20px;
     font-size: 280%;
 }
