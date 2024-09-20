@@ -127,19 +127,34 @@ main {
 
 /* Reasons Section */
 #reasons {
-    margin: auto;
-    width: 90%;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 20px;
     margin-top: 20px;
+    width: 90%;
+}
+
+#reasons>h2 {
+    margin-bottom: 20px;
+    font-size: 280%;
+}
+
+#benefits-physical div,
+#benefits-mental div {
+    line-height: 20px;
     margin-bottom: 20px;
 }
 
-#reasons h2 {
-    margin-bottom: 20px;
-    width: 280%;
+#benefits-physical p,
+#benefits-mental p {
+    padding: 0 20px;
 }
 
-#benefits-physical,
-#benefits-mental {}
+#reasons hr {
+    border-top: 1px solid #3a3a3a;
+    margin: 5px 0;
+
+}
 
 /* Final rbga value sets the opacity so it is semi-transparent */
 #cover-text {
