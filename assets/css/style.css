@@ -371,14 +371,13 @@ main {
     #signup {
         background-position: center;
         position: relative;
-
     }
 
     #signup-form {
         position: absolute;
         max-width: 400px;
-        margin-top: 150px;
-        margin-left: 10%;
+        top: 150px;
+        left: 10%;
     }
 
     .text-input:hover {
