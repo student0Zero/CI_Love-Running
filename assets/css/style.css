@@ -169,7 +169,6 @@ main {
     border-radius: 50%;
     max-width: 300px;
     max-height: 300px;
-    mac
 }
 
 #benefits-image {
@@ -373,7 +372,8 @@ main {
     }
 
     #signup-form {
-        position: absolute;
+        /* postion absolute causes the form to overflow. commentted out for now. */
+        /* position: absolute; */
         max-width: 400px;
         top: 150px;
         left: 10%;
