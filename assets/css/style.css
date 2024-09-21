@@ -373,7 +373,6 @@ main {
 
     }
 
-
     #signup-form {
         position: absolute;
         max-width: 400px;
@@ -383,6 +382,11 @@ main {
 
     .text-input:hover {
         border-color: #f16c6b;
+    }
+
+    .join-button:hover {
+        background-color: #fafafa;
+        color: #454b1b;
     }
 }
 
