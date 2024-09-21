@@ -52,6 +52,10 @@ h3 {
     color: #252525;
 }
 
+.hidden-heading {
+    display: none;
+}
+
 /* Header Style */
 header {
     background-color: #ffffff;
@@ -211,6 +215,16 @@ main {
 #cover-text>h2,
 #cover-text>h3 {
     color: #ffffff;
+}
+
+/* Gallery page */
+#photos img {
+    width: 100%;
+}
+
+#photos {
+    line-height: 0;
+
 }
 
 /* Footer Style */
