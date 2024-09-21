@@ -171,11 +171,27 @@ main {
 }
 
 /* Meet-up times section */
-#meetups {
+#times {
     display: flex;
     flex-wrap: wrap;
     background: url('../images/dublin-city.webp') no-repeat center/cover;
 
+}
+
+#times div {
+    color: #fafafa;
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 15px;
+    text-align: center;
+    /* This will not wrap on screens of less than 400px wide.
+    Each div will expand to fill the available space on it row */
+    flex-basis: 200px;
+    flex-grow: 1;
+}
+
+#times h3 {
+    /* Override general styles for heading */
+    color: #fafafa;
 }
 
 /* Final rbga value sets the opacity so it is semi-transparent */
