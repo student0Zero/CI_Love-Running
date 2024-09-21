@@ -238,7 +238,7 @@ main {
     background-size: cover;
     background-position: 75%;
     background: url('../images/signup-image.webp');
-    margin: 20px 10% 0;
+    padding: 20px 10% 0 10%;
 }
 
 #signup h2 {
