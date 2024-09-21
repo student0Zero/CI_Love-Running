@@ -170,6 +170,14 @@ main {
     justify-content: center;
 }
 
+/* Meet-up times section */
+#meetups {
+    display: flex;
+    flex-wrap: wrap;
+    background: url('../images/dublin-city.webp') no-repeat center/cover;
+
+}
+
 /* Final rbga value sets the opacity so it is semi-transparent */
 #cover-text {
     background-color: rgba(241, 109, 107, 0.7);
