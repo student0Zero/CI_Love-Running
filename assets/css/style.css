@@ -230,7 +230,26 @@ main {
 
 }
 
+/* Signup page styles */
+#signup {
+    display: flex;
+    flex-grow: 1;
+    background-size: cover;
+    background-position: 75%;
+    background: url('../images/signup-image.webp') no-repeat center/cover;
+    padding: 20px 10% 0;
+}
 
+#signup h2 {
+    color: #fafafa;
+    padding-bottom: 20px;
+}
+
+#signup-form {
+    color: #ffffff;
+    background-color: rgba(60, 60, 60, 0.6);
+    padding: 30px;
+}
 
 /* Footer Style */
 #social-networks {
