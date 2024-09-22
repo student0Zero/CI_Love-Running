@@ -352,8 +352,7 @@ main {
     }
 
     #signup-form {
-        /* postion absolute causes the form to overflow on 768px device. commentted out for now. */
-        /* position: absolute; */
+        position: absolute;
         max-width: 400px;
         top: 150px;
         left: 10%;
