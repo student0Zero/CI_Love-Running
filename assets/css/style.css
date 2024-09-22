@@ -127,7 +127,7 @@ main {
     flex-direction: column;
 }
 
-/*  Hero Section*/
+/* Hero Section*/
 #hero {
     height: 600px;
     width: 100%;
@@ -167,6 +167,7 @@ main {
     height: 90vw;
     margin-bottom: 20px;
     background: url("../images/reasons-image.webp") no-repeat top center/cover;
+
     /* Make the square image into a circle*/
     border-radius: 50%;
     max-width: 300px;
@@ -181,6 +182,7 @@ main {
 
 /* Meet-up times section */
 #times {
+    /* handles responsivity without the need for media query */
     display: flex;
     flex-wrap: wrap;
     background: url('../images/dublin-city.webp') no-repeat center/cover;
@@ -217,6 +219,7 @@ main {
     padding-left: 10px;
 }
 
+/* H2 and H3 color */
 #cover-text>h2,
 #cover-text>h3 {
     color: #ffffff;
@@ -373,7 +376,7 @@ main {
     }
 
     #signup-form {
-        /* postion absolute causes the form to overflow. commentted out for now. */
+        /* postion absolute causes the form to overflow on 768px device. commentted out for now. */
         /* position: absolute; */
         max-width: 400px;
         top: 150px;
