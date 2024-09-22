@@ -118,8 +118,10 @@ nav {
 main {
     /* Make main element take up any surplus space to push footer down */
     flex: 1 0 auto;
+
     /* add margin at top to prevent content being covered by header */
     margin-top: 47px;
+
     /* enable flex properties for child elements */
     display: flex;
     flex-direction: column;
@@ -232,7 +234,6 @@ main {
 
 /* Signup page styles */
 #signup {
-    display: flex;
     flex-grow: 1;
     background-size: cover;
     background-position: 75%;
